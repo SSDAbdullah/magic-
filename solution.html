@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+  <title>Document</title>
+  <style>
+    @media(max-width=1px ){
+    body{background-color: aliceblue;}
+   
+    }
+
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+      h1{
+ color: antiquewhite;
+font-size: small; 
+text-align: center;                        
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+      h1{
+ color:salmon ;
+font-size: medium;  
+text-align: center;  
+      }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+        
+      }
+           h1{
+ color: aqua ;
+font-size: x-large;
+text-align: center;  
+      } 
+      }
+  
+    
+
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+      h1{
+ color: blue ;
+font-size:xx-large; 
+text-align: center;   
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div>
+<h1>The Magic</h1>
+
+
+</div>  
+</body>
+
+</html>
