@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+  <style>
+    @media(max-width=12px){
+    body {
+      background-color: aquamarine;
+    }
+  }
+    @media(max-width=480px)and(min-width=319px){
+body{background-color: lightsalmon;}
+h1{
+ color: orangered; 
+ text-align: center;
+ font-size:small;
+}
+    }
+    @media(max-width=1200px)and(min-width=481px){
+body{
+ background-color:powderblue  ;
+ }
+ h1{
+  color:cadetblue; 
+ text-align: center;
+ font-size:medium;
+ }
+} 
+ @media(max-width=1600px)and(min-width=1201px)
+ {body
+  {background-color: limegreen;}
+h1{
+  color: lightgreen; 
+ text-align: center;
+ font-size: x-large;
+
+}
+}
+ @media(min-width=1601px)
+ {body
+  {background-color: slategray;}
+h1{
+  color:dark gray  ; 
+ text-align: center;
+ font-size:xx-large ;
+}
+}
+  </style>
+</head>
+
+<body>
+
+<h1>The Magic</h1>
+
+
+
+
+
+
+
+</body>
+
+</html>
